@@ -44,12 +44,6 @@ export default class ex8 extends Component {
 
     render() {
 
-        // if (this.state.counterColor === this.state.Colors.length-1) {
-        //     this.setState({
-        //         Shape:'Circle'
-        //     })
-        // }
-
         return (
             <div className="container">
                 <Box CLcolor = {this.state.Colors[this.state.counterColor]} CLshape ={this.state.Shape}></Box>
