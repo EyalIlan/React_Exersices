@@ -21,7 +21,7 @@ export default class ex7 extends Component {
     render() {
         return (
             <div>
-                <button onClick={this.ButtonNumberUpper}>Upper Number</button>
+                <button   onClick={this.ButtonNumberUpper}>Upper Number</button>
                 <h1>{this.state.number}</h1>
             </div>
         )

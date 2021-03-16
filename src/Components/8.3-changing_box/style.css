@@ -1,0 +1,36 @@
+
+.box{
+    margin-top: 200px;
+    width: 200px;
+    height: 200px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center
+}
+
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.Circle{
+    border-radius:50%;
+}

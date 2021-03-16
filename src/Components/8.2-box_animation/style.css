@@ -1,0 +1,30 @@
+
+
+.boxContainer{
+    position: relative;
+    width: 100vw;
+    /* overflow: hidden; */
+}
+
+
+.showBox{
+    /* position: absolute; */
+    background-color: red;
+    margin: 20px 0;
+    animation: left-to-right  ease-in;
+    animation-duration: 0.5s;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    animation-direction:normal
+
+}
+
+@keyframes left-to-right{
+    0%{
+     width: 0;
+    }
+
+    100%{
+        max-width: 700px;
+    }
+}

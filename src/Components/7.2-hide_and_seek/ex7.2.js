@@ -7,31 +7,29 @@ export default class ex7 extends Component {
 
         this.state = {
             show:false,
-            box:'box'
         }
 
     }
-
     ShowPictureHandler = () =>{
-
         this.setState({show:!this.state.show})
-
-        if(this.state.show){
-            this.setState({box:'box'})
-        }else{
-            this.setState({box:''})
-        }
-
+     
     }
 
-    
     render() {
+
+        let message;
+        if(this.state.show){
+            message =  (<div className='box'> </div>)
+        }
+        else{
+            message = ''
+        }
+
+   
         return (
             <div>                
              <button onClick={this.ShowPictureHandler}>Show picture</button>
-                <div className={this.state.box}>
-
-                </div>
+                {message}
             </div>
         )
     }
