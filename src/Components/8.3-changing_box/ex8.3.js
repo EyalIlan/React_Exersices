@@ -15,7 +15,7 @@ export default class ex8 extends Component {
 
     componentDidMount(){
         this.setState({
-            Colors:['red','blue','green','yellow','purple'],
+            Colors:['red','blue','green','yellow','purple']
         })
     }
 
@@ -41,6 +41,8 @@ export default class ex8 extends Component {
         },500)
 
     }
+
+    /// must do setState fro re render 
 
     render() {
 

@@ -1,0 +1,19 @@
+.btn{
+    padding: 20px;
+}
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+}
