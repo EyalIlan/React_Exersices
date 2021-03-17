@@ -6,8 +6,9 @@
 // import Ex8_2 from './Components/8.2-box_animation/ex8.2'
 // import Ex8_3 from './Components/8.3-changing_box/ex8.3'
 // import Ex9_1 from './Components/9.1-spinner(with default props)/ex9.1'
-import Ex11_1 from './Components/11.1-child_to_father/ex11.1'
-
+// import Ex11_1 from './Components/11.1-child_to_father/ex11.1'
+//  import Ex11_2 from './Components/11.2-checkbox/ex11.2'
+import Ex11_3 from './Components/11.3-form_review/ex11.3'
 function App() {
   return (
     <div className="App">
@@ -17,9 +18,12 @@ function App() {
       {/* <Ex8_2></Ex8_2> */}
       {/* <Ex8_3></Ex8_3> */}
       {/* <Ex9_1></Ex9_1> */}
-      <Ex11_1></Ex11_1>
+      {/* <Ex11_1></Ex11_1> */}
+      {/* <Ex11_2></Ex11_2>       */}
+      <Ex11_3></Ex11_3>
     </div>
   );
 }
+
 
 export default App;
