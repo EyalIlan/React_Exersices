@@ -3,14 +3,14 @@ import React, { Component } from 'react'
 
 import Form from './Form'
 import FormAccept from './FormAccept'
-
+import './style.css'
 export default class ex11 extends Component {
     
     
     state = {
         firstname:'',
         lastname:'',
-        age:'',
+        age:'young',
         freetext:'',
         FormArray:[],
         showForm:true
@@ -29,7 +29,8 @@ export default class ex11 extends Component {
     conirmFormHandler = (e) =>{
         
         if (e === 'send') {
-         let temp = []   
+            
+         let temp = this.state.FormArray 
             temp.push({
                 firstname:this.state.firstname,
                 lastname:this.state.lastname,
@@ -39,7 +40,7 @@ export default class ex11 extends Component {
             this.setState({
                 firstname:'',
                 lastname:'',
-                age:'',
+                age:'young',
                 freetext:'',
                 FormArray:temp,
                 showForm:true
@@ -53,9 +54,7 @@ export default class ex11 extends Component {
 
     render() {
 
-
         let form;
-
         if (this.state.showForm) {
             form = <Form 
                     onChangeHandler = {this.onChangeHandler} 
@@ -75,8 +74,27 @@ export default class ex11 extends Component {
 
 
         return (
-            <div>
+
+            <div className="container">
+            <div className="body left">
                 {form}
+            </div>
+           
+            <div className="body right">
+            {
+                this.state.FormArray.map(p =>{
+                return( 
+                    <div className="border">
+                    <h2><u>Survey</u></h2>
+                    <h3>{p.firstname}</h3>
+                    <h3>{p.lastname}</h3>
+                    <h3>{p.age}</h3>
+                    <h3>{p.freetext}</h3>
+                    </div>  
+                    )
+                })
+            }
+            </div>
             </div>
         )
     }

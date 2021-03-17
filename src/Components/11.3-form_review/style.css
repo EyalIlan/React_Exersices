@@ -1,0 +1,40 @@
+
+
+.container{
+    display: flex;
+    width: 100vw;
+}
+
+.body{
+    display: flex;
+  
+    align-items: center;
+    /* justify-content: space-around; */
+    height: 50vh;
+    width: 50vw;
+}
+
+
+.left{
+    flex-direction:column;
+}
+
+input{
+    display: block;
+    margin-top: 20px;
+    width: 400px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+textarea{
+    display: block;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.border{
+    border:2px solid black;
+    padding: 20px;
+}
+

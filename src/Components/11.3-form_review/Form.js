@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import './style.css'
+
 
 export default class Form extends Component {
   
@@ -36,7 +38,7 @@ render() {
           <textarea
             name="freetext"
             id="freetext"
-            cols="30"
+            cols="60"
             rows="10"
             onChange={this.props.onChangeHandler}
             value = {this.props.freetext}
