@@ -9,7 +9,9 @@
 // import Ex11_1 from './Components/11.1-child_to_father/ex11.1'
 //  import Ex11_2 from './Components/11.2-checkbox/ex11.2'
 // import Ex11_3 from './Components/11.3-form_review/ex11.3'
-import Ex12_1 from './Components/12.1-chuck_norris/ex12.1ex'
+// import Ex12_1 from './Components/12.1-chuck_norris/ex12.1ex'
+// import Ex13_1 from './Components/13.1-data_massaging/ex13.1'
+import Ex13_2 from './Components/13.2-avatar/ex13.2'
 function App() {
 
   return (
@@ -23,7 +25,9 @@ function App() {
       {/* <Ex11_1></Ex11_1> */}
       {/* <Ex11_2></Ex11_2> */}
       {/* <Ex11_3></Ex11_3> */}
-      <Ex12_1></Ex12_1>
+      {/* <Ex12_1></Ex12_1> */}
+      {/* <Ex13_1></Ex13_1> */}
+      <Ex13_2></Ex13_2>
     </div>
   );
 }
