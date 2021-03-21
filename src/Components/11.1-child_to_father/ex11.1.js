@@ -16,7 +16,6 @@ export default class ex11 extends Component {
     }
 
     render() {
-        
         return (
             <div>
                 {

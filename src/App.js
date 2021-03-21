@@ -8,8 +8,10 @@
 // import Ex9_1 from './Components/9.1-spinner(with default props)/ex9.1'
 // import Ex11_1 from './Components/11.1-child_to_father/ex11.1'
 //  import Ex11_2 from './Components/11.2-checkbox/ex11.2'
-import Ex11_3 from './Components/11.3-form_review/ex11.3'
+// import Ex11_3 from './Components/11.3-form_review/ex11.3'
+import Ex12_1 from './Components/12.1-chuck_norris/ex12.1ex'
 function App() {
+
   return (
     <div className="App">
       {/* <Ex7_1></Ex7_1> */}
@@ -19,8 +21,9 @@ function App() {
       {/* <Ex8_3></Ex8_3> */}
       {/* <Ex9_1></Ex9_1> */}
       {/* <Ex11_1></Ex11_1> */}
-      {/* <Ex11_2></Ex11_2>       */}
-      <Ex11_3></Ex11_3>
+      {/* <Ex11_2></Ex11_2> */}
+      {/* <Ex11_3></Ex11_3> */}
+      <Ex12_1></Ex12_1>
     </div>
   );
 }

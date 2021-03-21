@@ -1,11 +1,11 @@
 
-import React, { Component } from 'react'
 
+
+import React, { Component } from 'react'
 import Form from './Form'
 import FormAccept from './FormAccept'
 import './style.css'
 export default class ex11 extends Component {
-    
     
     state = {
         firstname:'',
