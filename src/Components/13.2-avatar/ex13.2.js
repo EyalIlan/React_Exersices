@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 import Card from "./card";
 import './style.css'
+
 export default class ex13 extends Component {
   state = {
     avatars: [],
