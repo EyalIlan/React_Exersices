@@ -13,7 +13,8 @@
 // import Ex13_1 from './Components/13.1-data_massaging/ex13.1'
 // import Ex13_2 from './Components/13.2-avatar/ex13.2'
 // import EX14_1 from './Components/14.1-focus/ex14.1'
-import Ex14_2 from './Components/14.2-copy/ex14.2'
+// import Ex14_2 from './Components/14.2-copy/ex14.2'
+import Ex16_1 from './Components/16.1/homepage'
 function App() {
 
   return (
@@ -31,7 +32,8 @@ function App() {
       {/* <Ex13_1></Ex13_1> */}
       {/* <Ex13_2></Ex13_2> */}
       {/* <EX14_1></EX14_1> */}
-      <Ex14_2></Ex14_2>
+      {/* <Ex14_2></Ex14_2> */}
+      <Ex16_1></Ex16_1>
     </div>
   );
 }
