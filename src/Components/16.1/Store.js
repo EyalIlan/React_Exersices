@@ -1,4 +1,4 @@
-[
+let store = [
     {
     title: "Stylish hat",
     imageUrl: "https://i.ibb.co/pPSQYfX/hat.jpg",
@@ -28,3 +28,5 @@
     id: 4
     },
 ];
+
+export default store
