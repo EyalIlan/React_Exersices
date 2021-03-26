@@ -6,7 +6,8 @@ export default class ex17 extends Component {
     
 
     state ={
-        data:[]
+        data:[],
+        TransferObject:{}
     }
 
 
