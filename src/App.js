@@ -18,7 +18,8 @@
 // import Ex17_1 from './Components/17.1/ex17'
 // import Ex18_1 from './Components/18.1-text/ex18'
 // import Ex18_2 from './Components/18.2-simpleTodo/ex18.2'
-import Ex18_3 from './Components/18.3- whats the time/ex18.3'
+// import Ex18_3 from './Components/18.3- whats the time/ex18.3'
+import Ex18_4 from './Components/18.4-marking-and-deleteing/Ex18.4'
 function App() {
 
   return (
@@ -40,7 +41,8 @@ function App() {
       {/* <Ex16_1></Ex16_1> */}
       {/* <Ex17_1></Ex17_1> */}
       {/* <Ex18_2></Ex18_2> */}
-      <Ex18_3></Ex18_3>
+      {/* <Ex18_3></Ex18_3> */}
+      <Ex18_4></Ex18_4>
     </div>
   );
 }
