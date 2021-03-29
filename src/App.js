@@ -16,7 +16,9 @@
 // import Ex14_2 from './Components/14.2-copy/ex14.2'
 // import Ex16_1 from './Components/16.1/ex16'
 // import Ex17_1 from './Components/17.1/ex17'
-import Ex18_1 from './Components/18.1-text/ex18'
+// import Ex18_1 from './Components/18.1-text/ex18'
+// import Ex18_2 from './Components/18.2-simpleTodo/ex18.2'
+import Ex18_3 from './Components/18.3- whats the time/ex18.3'
 function App() {
 
   return (
@@ -37,7 +39,8 @@ function App() {
       {/* <Ex14_2></Ex14_2> */}
       {/* <Ex16_1></Ex16_1> */}
       {/* <Ex17_1></Ex17_1> */}
-      <Ex18_1></Ex18_1>
+      {/* <Ex18_2></Ex18_2> */}
+      <Ex18_3></Ex18_3>
     </div>
   );
 }

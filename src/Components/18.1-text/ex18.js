@@ -1,5 +1,5 @@
-import React from 'react'
-import Text from './Text'
+import React,{ useState } from 'react'
+// import Text from './Text'
 
 export default function ex18() {
     
@@ -8,7 +8,7 @@ export default function ex18() {
 
     return (
         <div>
-            <Text text={name} Length={MaxLength}></Text>
+            {/* <Text text={name} Length={MaxLength}></Text> */}
         </div>
     )
 }
