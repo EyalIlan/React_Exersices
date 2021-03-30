@@ -18,10 +18,8 @@ export default function Ex19() {
 
     const CountryFilter = (e) =>{
         
-        
-    
        let Search = [...countrys].filter(p =>{
-            return p.name.includes(e.target.value)
+            return p.name.toLowerCase().includes(e.target.value)
        }) 
        SetTempCountry(Search)
        
