@@ -1,0 +1,19 @@
+
+
+.spinner{
+    display: flex;
+    justify-content: center;
+    animation: spinner 4.0s linear infinite;
+    
+}
+
+.spinnerImg{
+ border-radius: 50%;
+}
+
+
+@keyframes spinner{
+    to{
+        transform: rotate(360deg);
+    }
+}

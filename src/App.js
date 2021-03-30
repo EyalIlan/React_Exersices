@@ -22,7 +22,8 @@
 // import Ex18_4 from './Components/18.4-marking-and-deleteing/Ex18.4'
 // import EX19_1 from './Components/19.1-simple fetch/Ex19.1'
 // import  EX19_2 from './Components/19.2-countries of the world/Ex19.2'
-import EX19_3 from './Components/19.3-aLogolia API/Ex19.3'
+// import EX19_3 from './Components/19.3-aLogolia API/Ex19.3'
+import EX19_4 from './Components/19.4-refactor fetch with hook/Ex19.4'
 function App() {
 
   return (
@@ -48,7 +49,8 @@ function App() {
       {/* <Ex18_4></Ex18_4> */}
       {/* <EX19_1></EX19_1> */}
       {/* <EX19_2></EX19_2> */}
-      <EX19_3></EX19_3>
+      {/* <EX19_3></EX19_3> */}
+      <EX19_4></EX19_4>
     </div>
   );
 }
