@@ -8,7 +8,7 @@ export default function ex18() {
 
     return (
         <div>
-            {/* <Text text={name} Length={MaxLength}></Text> */}
+            <Text text={name} Length={MaxLength}></Text>
         </div>
     )
 }
