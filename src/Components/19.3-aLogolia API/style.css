@@ -3,7 +3,7 @@
 .spinner{
     display: flex;
     justify-content: center;
-    animation: spinner 4.0s linear infinite;
+    animation: spinner 6.0s linear infinite;
     
 }
 

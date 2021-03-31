@@ -8,7 +8,7 @@ export default function Ex19() {
 
     const [url,SetUrl] = useState('https://hn.algolia.com/api/v1/search?query=')
     const [Data,SetData] = useState([])
-    const [term,SetTerm] = useState('hooks')
+    const [term,SetTerm] = useState('Hooks')
     const [loading,SetLoading] = useState(true)
 
     useEffect(() =>{

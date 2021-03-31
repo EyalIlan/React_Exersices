@@ -23,7 +23,9 @@
 // import EX19_1 from './Components/19.1-simple fetch/Ex19.1'
 // import  EX19_2 from './Components/19.2-countries of the world/Ex19.2'
 // import EX19_3 from './Components/19.3-aLogolia API/Ex19.3'
-import EX19_4 from './Components/19.4-refactor fetch with hook/Ex19.4'
+// import EX19_4 from './Components/19.4-refactor fetch with hook/Ex19.4'
+// import EX20_1 from './Components/20.1-cancel request/Ex20.1'
+import EX21_1 from './Components/21.1-editing/EX21.1'
 function App() {
 
   return (
@@ -50,7 +52,9 @@ function App() {
       {/* <EX19_1></EX19_1> */}
       {/* <EX19_2></EX19_2> */}
       {/* <EX19_3></EX19_3> */}
-      <EX19_4></EX19_4>
+      {/* <EX19_4></EX19_4> */}
+      {/* <EX20_1></EX20_1> */}
+      <EX21_1></EX21_1>
     </div>
   );
 }
