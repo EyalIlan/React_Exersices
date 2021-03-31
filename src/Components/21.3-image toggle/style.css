@@ -1,0 +1,15 @@
+
+
+img{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.filter{
+    filter: grayscale(100%);
+}
+
+.filter:hover{
+    filter: grayscale(0);
+}

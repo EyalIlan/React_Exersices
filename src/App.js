@@ -25,7 +25,9 @@
 // import EX19_3 from './Components/19.3-aLogolia API/Ex19.3'
 // import EX19_4 from './Components/19.4-refactor fetch with hook/Ex19.4'
 // import EX20_1 from './Components/20.1-cancel request/Ex20.1'
-import EX21_1 from './Components/21.1-editing/EX21.1'
+// import EX21_1 from './Components/21.1-editing/EX21.1'
+// import EX21_2 from './Components/21.2-play and pause video/EX21.2'
+import EX21_3 from './Components/21.3-image toggle/EX21.3'
 function App() {
 
   return (
@@ -54,7 +56,9 @@ function App() {
       {/* <EX19_3></EX19_3> */}
       {/* <EX19_4></EX19_4> */}
       {/* <EX20_1></EX20_1> */}
-      <EX21_1></EX21_1>
+      {/* <EX21_1></EX21_1> */}
+      {/* <EX21_2></EX21_2> */}
+      <EX21_3></EX21_3>
     </div>
   );
 }
